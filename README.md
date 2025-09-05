@@ -1,4 +1,4 @@
-# Solar Targets — Global Electricity Access & Solar Potential (2025; data: 2022)
+# Global Electricity Access & Solar Potential (2025; data: 2022)
 
 ![Dashboard preview](figures/Dashboard.png)
 
