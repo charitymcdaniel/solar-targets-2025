@@ -9,6 +9,20 @@
 
 --- 
 
+## Table of contents
+- [Project goal](#project-goal)
+- [Overview](#overview)
+- [How to use](#how-to-use)
+- [Data sources & why](#data-sources--why)
+- [Method (concise)](#method-concise)
+- [Excel visuals](#excel-visuals)
+- [Notes & caveats](#notes--caveats)
+- [Repository structure](#repository-structure)
+- [Citations](#citations)
+- [License](#license)
+
+---
+
 ## Project goal
 **How can solar energy expand electricity access in developing countries?**  
 This project explores the relationship between electricity access and solar potential to identify countries where expanding solar could most rapidly close access gaps.
