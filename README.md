@@ -5,7 +5,7 @@
 **Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/charity.mcdaniel/viz/SolarTargets2022/Dashboard)  
 **Tech:** Excel, Tableau • **Scope:** Country-level • **Focus year:** 2022
 
-**Quick links:** [Data notes](data/README.md) • [Excel workbook](excel/solar_targets.xlsx) • [Figures](figures/)
+**Quick links:** [Data notes](data/README.md) • [Excel workbook](excel/Solar Energy Project_FINAL.xlsx) • [Figures](figures/)
 
 ---
 
