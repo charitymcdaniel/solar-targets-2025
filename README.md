@@ -122,23 +122,24 @@ The 4-panel line chart compares **Access vs Solar** over time for these countrie
 --
 
 ## Top-10 Need list — how it works & how to read it
-**What it measures.** The list ranks countries by a **Need Score** that grows when electricity access is lower and solar potential is higher.  
-**Score (intuition):** the farther a country is below the Access cutoff, the more “need”; the higher its Solar %, the more feasible the solution.
+**What it measures.** Ranks countries by a **Need Score** that grows when electricity access is lower and solar potential is higher.
+
+**Score (intuition).** The farther a country is below the **Access cutoff**, the more “need”; the higher its **Solar %**, the more feasible the solution.
 
 **Built from:**
-- **Access (0–100%)** and **Solar (0–100%)** from the 2022 lens
-- **Parameters:** *Access cutoff (%)* and *Solar cutoff (%)* (controls on the dashboard)
-- **Need Score:** `MAX(0, (AccessCutoff − Access) / AccessCutoff) × Solar`
+- **Access** (0–100%) and **Solar** (0–100%) using the 2022 lens
+- **Parameters:** *Access cutoff (%)* and *Solar cutoff (%)* (dashboard controls)
+- **Need Score:** `MAX(0, (AccessCutoff - Access) / AccessCutoff) * Solar`
 
-**How to read it.**
-- High rank = **low access + high solar** under your current cutoffs.  
-- Change the cutoffs to reflect strategy (e.g., humanitarian vs. optimization) and watch the Top-10 update.  
+**How to read it**
+- High rank = **low access + high solar** under your current cutoffs.
+- Change the cutoffs to fit strategy (e.g., humanitarian vs. optimization) and watch the Top-10 update.
 - Use the **Continent** filter to focus regionally.
 
-**Defaults used in this dashboard:** Access cutoff = **40%**, Solar cutoff = **0%**. Adjust these to reflect humanitarian vs. optimization goals.
+**Defaults used in this dashboard:** Access cutoff = **40%**, Solar cutoff = **0%**. Adjust these to match your goals.
 
+*Tip:* The image below reflects the current default cutoffs used in the dashboard.
 
-*Tip: The image below reflects the current default cutoffs used in the dashboard.*
 ![Top-10 Need Score (Tableau)](figures/Top_10_Need.png)
 
 ---
@@ -154,6 +155,7 @@ The 4-panel line chart compares **Access vs Solar** over time for these countrie
 
 ## Repository structure
 
+```text
 .
 ├─ README.md
 ├─ LICENSE
