@@ -67,7 +67,7 @@ This project explores the relationship between electricity access and solar pote
 *Four country trends (Access fixed 0–100%; Solar per-country scale): Egypt, South Sudan, New Zealand, Papua New Guinea.*
 
 ![Gap by Continent (Excel)](figures/excel_gap_continent_2022.png)
-*Electricity Access Gap by Continent (2022).*
+*Electricity Access Gap by Continent (2022).* 
 
 ![Min/Max Access by Continent (Excel)](figures/excel_minmax_continent_2022.png)
 *2022 min/max access per continent with country labels.*
