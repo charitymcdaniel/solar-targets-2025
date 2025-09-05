@@ -78,3 +78,11 @@ _For detailed fields, cleaning steps, and join logic, see the [Data notes](data/
 
 
 ## Repository structure
+
+
+## Citations
+- World Bank (WDI). *Access to electricity (% of population)* (EG.ELC.ACCS.ZS). https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+- Ritchie, H., Rosado, P., & Roser, M. (2023). *Energy*. Our World in Data. https://ourworldindata.org/energy
+
+## License
+Released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
