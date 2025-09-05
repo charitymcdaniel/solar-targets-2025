@@ -76,9 +76,60 @@ _For detailed fields, cleaning steps, and join logic, see the [Data notes](data/
 ![Min/Max Access by Continent (Excel)](figures/excel_minmax_continent_2022.png)
 *2022 min/max access per continent with country labels.*
 
+---
+
+## Overview
+This project brings together 2022 electricity access and solar indicators to spotlight countries where expanding solar could quickly close access gaps. The dashboard has three coordinated views:
+
+- **Map** — Color shows **lower electricity access** (fixed 0–100%); bubble size shows **solar**. Hover for country details.
+- **Scatter** — Plots **Access (x)** vs **Solar (y)** with **median lines** to show regional positioning and outliers.
+- **Top-10 table** — Ranks countries by a **Need Score** (low access × solar potential) that updates as you adjust cutoffs.
+
+**Interactivity:** A **Continent** filter and **parameter controls** for Access/Solar cutoffs let you explore different targeting scenarios. Countries without 2022 access data are excluded; missing solar appears as very small/no bubbles on the map.
+
+---
+
+## How to use
+1) Open the Live dashboard (link at top).
+2) Use the **Continent** filter (right panel) to focus a region.
+3) Adjust **Access cutoff (%)** and **Solar cutoff (%):** the **Top-10** re-ranks by Need Score as you move these.
+4) Read the views:
+   - **Map:** darker color = lower access (fixed 0–100); bigger bubble = higher solar.
+   - **Scatter:** Access (x) vs Solar (y) with median lines; top-right = strong access & solar, bottom-right = high access / low solar, etc.
+   - **Top-10:** highest Need Scores under current cutoffs.
+5) Hover any country for a tooltip with Access, Solar, and Continent.
+6) Reset anytime with **Revert (↺)** or **Undo/Redo** on the Tableau toolbar. Use **Download → Image** for a snapshot.
+
+---
+
+## Notes & caveats
+- Analysis lens is **2022**; countries without 2022 electricity access are excluded.
+- Some 2022 **solar** values are missing → appear as tiny/no-size bubbles on the map.
+- Access & Solar are treated as **percentages (0–100)** across charts and tables.
+- Solar from OWID may be reported as TWh/capacity originally; converted to a %-style indicator for comparability.
+- Regional aggregates removed; **countries only**. Codes standardized; any duplicate country-year rows averaged for display.
+
+---
 
 ## Repository structure
 
+.
+├─ README.md
+├─ LICENSE
+├─ data/
+│  └─ README.md
+├─ excel/
+│  └─ solar_targets.xlsx
+└─ figures/
+   ├─ dashboard.png
+   ├─ map_access_solar.png
+   ├─ scatter_access_vs_solar.png
+   ├─ top10_need.png
+   ├─ excel_gap_continent_2022.png
+   ├─ excel_minmax_continent_2022.png
+   └─ excel_country_trends_4.png
+
+---
 
 ## Citations
 - World Bank (WDI). *Access to electricity (% of population)* (EG.ELC.ACCS.ZS). https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
