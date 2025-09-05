@@ -139,7 +139,7 @@ The 4-panel line chart compares **Access vs Solar** over time for these countrie
 
 
 *Tip: The image below reflects the current default cutoffs used in the dashboard.*
-![Top-10 Need Score (Tableau)](figures/Top_10_Need_.png)
+![Top-10 Need Score (Tableau)](figures/Top_10_ Need_.png)
 
 ---
 
