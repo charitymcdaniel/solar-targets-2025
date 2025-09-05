@@ -7,7 +7,7 @@
 
 **Quick links:** [Data notes](data/README.md) • [Excel workbook](excel/Solar_Energy_Project_FINAL.xlsx) • [Figures](figures/)
 
----
+--- 
 
 ## Project goal
 **How can solar energy expand electricity access in developing countries?**  
