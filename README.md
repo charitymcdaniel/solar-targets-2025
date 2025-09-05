@@ -155,22 +155,21 @@ The 4-panel line chart compares **Access vs Solar** over time for these countrie
 
 ## Repository structure
 
-```text
-.
-├─ README.md
-├─ LICENSE
-├─ data/
-│  └─ README.md
-├─ excel/
-│  └─ solar_targets.xlsx
-└─ figures/
-   ├─ dashboard.png
-   ├─ map_access_solar.png
-   ├─ scatter_access_vs_solar.png
-   ├─ top10_need.png
-   ├─ excel_gap_continent_2022.png
-   ├─ excel_minmax_continent_2022.png
-   └─ excel_country_trends_4.png
+    .
+    ├─ README.md
+    ├─ LICENSE
+    ├─ data/
+    │  └─ README.md
+    ├─ excel/
+    │  └─ solar_targets.xlsx
+    └─ figures/
+       ├─ dashboard.png
+       ├─ map_access_solar.png
+       ├─ scatter_access_vs_solar.png
+       ├─ top10_need.png
+       ├─ excel_gap_continent_2022.png
+       ├─ excel_minmax_continent_2022.png
+       └─ excel_country_trends_4.png
 
 ---
 
@@ -185,11 +184,9 @@ This dashboard is designed to answer one question: **Where would added solar mos
 **From our 2022 analysis**, the Top-10 list under default cutoffs highlights countries where sponsors could see meaningful gains from solar deployment. If your mission emphasizes **stabilizing strong grids**, use higher access thresholds; if it emphasizes **closing the basic access gap**, use lower access thresholds.  
 **The choice is yours**—the tool makes the trade-offs explicit.
 
----
-
 ## Citations
 - World Bank (WDI). *Access to electricity (% of population)* (EG.ELC.ACCS.ZS). https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
 - Ritchie, H., Rosado, P., & Roser, M. (2023). *Energy*. Our World in Data. https://ourworldindata.org/energy
 
 ## License
-Released under the **MIT License**. See [`LICENSE`](LICENSE) for details. 
+Released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
