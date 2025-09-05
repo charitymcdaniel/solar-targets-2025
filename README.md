@@ -33,6 +33,8 @@ This project explores the relationship between electricity access and solar pote
 
 > These pair well: WDI shows **who lacks access**; OWID shows **where solar can scale**.
 
+_For detailed fields, cleaning steps, and join logic, see the [Data notes](data/README.md)._
+
 ---
 
 ## Method (concise)
