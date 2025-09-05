@@ -85,4 +85,4 @@ _For detailed fields, cleaning steps, and join logic, see the [Data notes](data/
 - Ritchie, H., Rosado, P., & Roser, M. (2023). *Energy*. Our World in Data. https://ourworldindata.org/energy
 
 ## License
-Released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+Released under the **MIT License**. See [`LICENSE`](LICENSE) for details. 
