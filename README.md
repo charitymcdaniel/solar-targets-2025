@@ -15,9 +15,9 @@
 - [How to use](#how-to-use)
 - [Data sources & why](#data-sources--why)
 - [Method (concise)](#method-concise)
-- [Country selection logic](#country-selection-logic-why-these-4)
+- [Country selection logic (why these 4)](#country-selection-logic-why-these-4)
 - [Excel visuals](#excel-visuals)
-- [Top-10 Need list — how it works & how to read it](#top10-need-list--how-it-works--how-to-read-it)
+- [Top-10 Need list — how it works & how to read it](#top-10-need-list--how-it-works--how-to-read-it)
 - [Notes & caveats](#notes--caveats)
 - [Repository structure](#repository-structure)
 - [Conclusion / Decision lenses](#conclusion--decision-lenses)
@@ -86,10 +86,8 @@ _For detailed fields, cleaning steps, and join logic, see the [Data notes](data/
 - Built a **latest-year** bar/table showing 2022 min/max access with country labels.
 
 ### Tableau dashboard logic
-- **Need Score** (used to rank Top-10):  
-  \[
-  \text{Need Score} = \max\big(0,\ \frac{\text{AccessCutoff} - \text{Access}}{\text{AccessCutoff}}\big)\times \text{Solar}
-  \]
+- **Need Score (formula):**
+  - `MAX(0, (AccessCutoff - Access) / AccessCutoff) * Solar`
   - Access is on a **0–100** scale; Solar treated as **%**.  
   - Cutoffs are **parameters** (controls on the dashboard).
 - **Design:** fixed scales, clear legends/tooltips, continent filter applied to all sheets.
@@ -137,8 +135,11 @@ The 4-panel line chart compares **Access vs Solar** over time for these countrie
 - Change the cutoffs to reflect strategy (e.g., humanitarian vs. optimization) and watch the Top-10 update.  
 - Use the **Continent** filter to focus regionally.
 
+**Defaults used in this dashboard:** Access cutoff = **40%**, Solar cutoff = **0%**. Adjust these to reflect humanitarian vs. optimization goals.
+
+
 *Tip: The image below reflects the current default cutoffs used in the dashboard.*
-![Top-10 Need Score (Tableau)](figures/Top 10 - Need Score (2022).png)
+![Top-10 Need Score (Tableau)](figures/Top_10_Need_.png)
 
 ---
 
