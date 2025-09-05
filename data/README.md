@@ -12,7 +12,7 @@ This folder documents the inputs and transformations used to build the Excel tab
    Link: https://ourworldindata.org/energy  
    *Why:* indicates where solar is present and scaling (used as the solar potential signal).
 
-**Accessed:** 2025-MM-DD (update this date when you refresh)
+**Accessed:** 2025-09-05
 
 ## Fields used (long/tidy table)
 - `Country Name` — country label (string)
