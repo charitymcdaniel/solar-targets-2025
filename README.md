@@ -1,5 +1,7 @@
 # Solar Targets — Electricity Access & Solar Potential (2025; data: 2022)
 
+![Dashboard preview](figures/dashboard.png)
+
 **Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/charity.mcdaniel/viz/SolarTargets2022/Dashboard)  
 **Tech:** Excel, Tableau • **Scope:** Country-level • **Focus year:** 2022
 
